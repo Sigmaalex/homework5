@@ -5,13 +5,10 @@ import static jdk.nashorn.internal.objects.NativeArray.some;
 
 public class Main {
     public static void main(String[] args) {
-        task1();
-        //task2();
-        //   task3();
-        //   task4();
-    }
+        task();
+     }
 
-    public static void task1() {
+    public static void task() {
         System.out.println("Задачи 1-4");
         int[] firstMassiv = new int[3];
         firstMassiv[0] = 1;
